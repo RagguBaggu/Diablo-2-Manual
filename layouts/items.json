@@ -1,7 +1,7 @@
 // sets layouts for shadred items grids
 // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
 {
-    "shared_item_grid": {
+    "normal_items": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -14,15 +14,167 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "10, 10",
-                        "h_alignment": "left",
+                        "h_alignment": "center",
                         "rows": [
                             [
-                                "toggle",
-                                "progressive"           
+                                "inifussNorm",
+                                "malusNorm",
+                                "hScrollNorm",
+                                "cubeNorm",
+                                "kingStaffNorm",
+                                "viperNorm",
+                                "hStaffNorm",
+                                "actClearNorm"           
                             ],
                             [
-                                "consumable",
-                                "progressive_toggle"
+                                "tomeNorm",
+                                "eyeNorm",
+                                "brainNorm",
+                                "heartNorm",
+                                "flailNorm",
+                                "willNorm",
+                                "stoneNorm",
+                                "levelUp"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "nightmare_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "inifussNight",
+                                "malusNight",
+                                "hScrollNight",
+                                "cubeNight",
+                                "kingStaffNight",
+                                "viperNight",
+                                "hStaffNight",
+                                "actClearNight"           
+                            ],
+                            [
+                                "tomeNight",
+                                "eyeNight",
+                                "brainNight",
+                                "heartNight",
+                                "flailNight",
+                                "willNight",
+                                "stoneNight",
+                                "levelUp"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "hell_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "inifussHell",
+                                "malusHell",
+                                "hScrollHell",
+                                "cubeHell",
+                                "kingStaffHell",
+                                "viperHell",
+                                "hStaffHell",
+                                "actClearHell"           
+                            ],
+                            [
+                                "tomeHell",
+                                "eyeHell",
+                                "brainHell",
+                                "heartHell",
+                                "flailHell",
+                                "willHell",
+                                "stoneHell",
+                                "levelUp"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "rune_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "elRune",
+                                "eldRune",
+                                "tirRune",
+                                "nefRune",
+                                "ethRune",
+                                "ithRune",
+                                "talRune",
+                                "ralRune",
+                                "ortRune",
+                                "thulRune",
+                                "amnRune",
+                                "solRune",
+                                "shaelRune",
+                                "dolRune",
+                                "helRune",
+                                "ioRune",           
+                            ],
+                            [
+                                "lumRune",
+                                "koRune",
+                                "falRune",
+                                "lemRune",
+                                "pulRune",
+                                "umRune",
+                                "malRune",
+                                "istRune",
+                                "gulRune",
+                                "vexRune",
+                                "ohmRune",
+                                "loRune",
+                                "surRune",
+                                "berRune",
+                                "jahRune",
+                                "chamRune",
+                                "zodRune"
                             ]
                         ]
                     }

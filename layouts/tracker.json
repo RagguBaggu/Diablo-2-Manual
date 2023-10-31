@@ -28,20 +28,29 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Map 1",
+                            "title": "Normal Difficulty",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map1"
+                                    "Normal"
                                 ]
                             }
                         },
                         {
-                            "title": "Map 2",
+                            "title": "Nightmare Difficulty",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map2"
+                                    "Nightmare"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hell Difficulty",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hell"
                                 ]
                             }
                         }
@@ -52,7 +61,7 @@
     },
     "tracker_horizontal": {
         "type": "container",
-        "background": "#000000",
+        "background": "#333333",
         "content": {
             "type": "dock",
             "dropshadow": true,
@@ -62,37 +71,115 @@
                     "dock": "bottom",
                     "content": [
                         {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "left",
-                            "margin": "0,0,3,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "shared_item_grid"
-                            }
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Quest Items - Normal",
+                                    "content": {
+                                        "type": "group",
+                                        "header": "Items",
+                                        "dock": "left",
+                                        "h_alignment": "center",
+                                        "margin": "0,0,3,0",
+                                        "content": {
+                                            "type": "layout",
+                                            "h_alignment": "center",
+                                            "v_alignment": "center",
+                                            "key": "normal_items"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Quest Items - Nightmare",
+                                    "content": {
+                                        "type": "group",
+                                        "header": "Items",
+                                        "dock": "left",
+                                        "h_alignment": "center",
+                                        "margin": "0,0,3,0",
+                                        "content": {
+                                            "type": "layout",
+                                            "h_alignment": "center",
+                                            "v_alignment": "center",
+                                            "key": "nightmare_items"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Quest Items - Hell",
+                                    "content": {
+                                        "type": "group",
+                                        "header": "Items",
+                                        "dock": "left",
+                                        "h_alignment": "center",
+                                        "margin": "0,0,3,0",
+                                        "content": {
+                                            "type": "layout",
+                                            "h_alignment": "center",
+                                            "v_alignment": "center",
+                                            "key": "hell_items"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Knowledge of Runes",
+                                    "content": {
+                                        "type": "group",
+                                        "header": "Items",
+                                        "dock": "left",
+                                        "h_alignment": "center",
+                                        "margin": "0,0,3,0",
+                                        "content": {
+                                            "type": "layout",
+                                            "h_alignment": "center",
+                                            "v_alignment": "center",
+                                            "key": "rune_items"
+                                        }
+                                    }
+                                }
+                            ]
                         }
+                        //{
+                            //"type": "group",
+                            //"header": "Items",
+                            //"dock": "left",
+                            //"margin": "0,0,3,0",
+                            //"content": {
+                                //"type": "layout",
+                                //"h_alignment": "center",
+                                //"v_alignment": "center",
+                                //"key": "shared_item_grid"
+                            //}
+                        //}
                     ]
                 },
                 {
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Map 1",
+                            "title": "Normal Difficulty",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map1"
+                                    "Normal"
                                 ]
                             }
                         },
                         {
-                            "title": "Map 2",
+                            "title": "Nightmare Difficulty",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map2"
+                                    "Nightmare"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hell Difficulty",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hell"
                                 ]
                             }
                         }

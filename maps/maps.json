@@ -1,15 +1,21 @@
 //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
 [
     {
-        "name": "map1",
+        "name": "Normal",
         "location_size": 48,
         "location_border_thickness": 4,
-        "img": "images/maps/map.png"
+        "img": "images/maps/Act_map.png"
     },
     {
-        "name": "map2",
+        "name": "Nightmare",
         "location_size": 48,
         "location_border_thickness": 4,
-        "img": "images/maps/map_2.png"
+        "img": "images/maps/Act_map.png"
+    },
+    {
+        "name": "Hell",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/Act_map.png"
     }
 ]

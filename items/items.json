@@ -1,56 +1,497 @@
 //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 [
     {
-        "name": "Toggle",
+        "name": "Scroll of Inifuss - Normal",
         "type": "toggle",
-        "img": "images/items/toggle.png",
-        "codes": "toggle"
+        "img": "images/items/Quest Items/scroll_of_inifuss.png",
+        "codes": "inifussNorm"
     },
     {
-        "name": "Progressive",
-        "type": "progressive",
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Horadric Malus - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_malus.png",
+        "codes": "malusNorm"
     },
     {
-        "name": "Consumable",
+        "name": "Horadric Scroll - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_scroll.png",
+        "codes": "hScrollNorm"
+    },
+    {
+        "name": "Horadric Cube - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_cube.png",
+        "codes": "cubeNorm"
+    },
+    {
+        "name": "Staff of Kings - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/staff_of_kings.png",
+        "codes": "kingStaffNorm"
+    },
+    {
+        "name": "Viper Amulet - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/viper_amulet.png",
+        "codes": "viperNorm"
+    },
+    {
+        "name": "Horadric Staff - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_staff.png",
+        "codes": "hStaffNorm"
+    },
+    {
+        "name": "Lam Esen's Tome - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/lam_esens_tome.png",
+        "codes": "tomeNorm"
+    },
+    {
+        "name": "Khalim's Eye - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/eye.png",
+        "codes": "eyeNorm"
+    },
+    {
+        "name": "Khalim's Brain - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/brain.png",
+        "codes": "brainNorm"
+    },
+    {
+        "name": "Khalim's Heart - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/heart.png",
+        "codes": "heartNorm"
+    },
+    {
+        "name": "Khalim's Flail - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/khalims_flail.png",
+        "codes": "flailNorm"
+    },
+    {
+        "name": "Khalim's Will - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/khalims_will.png",
+        "codes": "willNorm"
+    },
+    {
+        "name": "Mehpisto's Soul Stone - Normal",
+        "type": "toggle",
+        "img": "images/items/Quest Items/mephistos_soul_stone.png",
+        "codes": "stoneNorm"
+    },
+    {
+        "name": "Scroll of Inifuss - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/scroll_of_inifuss.png",
+        "codes": "inifussNight"
+    },
+    {
+        "name": "Horadric Malus - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_malus.png",
+        "codes": "malusNight"
+    },
+    {
+        "name": "Horadric Scroll - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_scroll.png",
+        "codes": "hScrollNight"
+    },
+    {
+        "name": "Horadric Cube - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_cube.png",
+        "codes": "cubeNight"
+    },
+    {
+        "name": "Staff of Kings - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/staff_of_kings.png",
+        "codes": "kingStaffNight"
+    },
+    {
+        "name": "Viper Amulet - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/viper_amulet.png",
+        "codes": "viperNight"
+    },
+    {
+        "name": "Horadric Staff - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_staff.png",
+        "codes": "hStaffNight"
+    },
+    {
+        "name": "Lam Esen's Tome - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/lam_esens_tome.png",
+        "codes": "tomeNight"
+    },
+    {
+        "name": "Khalim's Eye - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/eye.png",
+        "codes": "eyeNight"
+    },
+    {
+        "name": "Khalim's Brain - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/brain.png",
+        "codes": "brainNight"
+    },
+    {
+        "name": "Khalim's Heart - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/heart.png",
+        "codes": "heartNight"
+    },
+    {
+        "name": "Khalim's Flail - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/khalims_flail.png",
+        "codes": "flailNight"
+    },
+    {
+        "name": "Khalim's Will - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/khalims_will.png",
+        "codes": "willNight"
+    },
+    {
+        "name": "Mehpisto's Soul Stone - Nightmare",
+        "type": "toggle",
+        "img": "images/items/Quest Items/mephistos_soul_stone.png",
+        "codes": "stoneNight"
+    },
+    {
+        "name": "Scroll of Inifuss - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/scroll_of_inifuss.png",
+        "codes": "inifussHell"
+    },
+    {
+        "name": "Horadric Malus - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_malus.png",
+        "codes": "malusHell"
+    },
+    {
+        "name": "Horadric Scroll - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_scroll.png",
+        "codes": "hScrollHell"
+    },
+    {
+        "name": "Horadric Cube - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_cube.png",
+        "codes": "cubeHell"
+    },
+    {
+        "name": "Staff of Kings - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/staff_of_kings.png",
+        "codes": "kingStaffHell"
+    },
+    {
+        "name": "Viper Amulet - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/viper_amulet.png",
+        "codes": "viperHell"
+    },
+    {
+        "name": "Horadric Staff - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/horadric_staff.png",
+        "codes": "hStaffHell"
+    },
+    {
+        "name": "Lam Esen's Tome - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/lam_esens_tome.png",
+        "codes": "tomeHell"
+    },
+    {
+        "name": "Khalim's Eye - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/eye.png",
+        "codes": "eyeHell"
+    },
+    {
+        "name": "Khalim's Brain - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/brain.png",
+        "codes": "brainHell"
+    },
+    {
+        "name": "Khalim's Heart - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/heart.png",
+        "codes": "heartHell"
+    },
+    {
+        "name": "Khalim's Flail - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/khalims_flail.png",
+        "codes": "flailHell"
+    },
+    {
+        "name": "Khalim's Will - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/khalims_will.png",
+        "codes": "willHell"
+    },
+    {
+        "name": "Mehpisto's Soul Stone - Hell",
+        "type": "toggle",
+        "img": "images/items/Quest Items/mephistos_soul_stone.png",
+        "codes": "stoneHell"
+    },
+    {
+        "name": "Knowledge of El",
+        "type": "toggle",
+        "img": "images/items/Runes/el_rune.png",
+        "codes": "elRune"
+    },
+    {
+        "name": "Knowledge of Eld",
+        "type": "toggle",
+        "img": "images/items/Runes/eld_rune.png",
+        "codes": "eldRune"
+    },
+    {
+        "name": "Knowledge of Tir",
+        "type": "toggle",
+        "img": "images/items/Runes/tir_rune.png",
+        "codes": "tirRune"
+    },
+    {
+        "name": "Knowledge of Nef",
+        "type": "toggle",
+        "img": "images/items/Runes/nef_rune.png",
+        "codes": "nefRune"
+    },
+    {
+        "name": "Knowledge of Eth",
+        "type": "toggle",
+        "img": "images/items/Runes/eth_rune.png",
+        "codes": "ethRune"
+    },
+    {
+        "name": "Knowledge of Ith",
+        "type": "toggle",
+        "img": "images/items/Runes/ith_rune.png",
+        "codes": "ithRune"
+    },
+    {
+        "name": "Knowledge of Tal",
+        "type": "toggle",
+        "img": "images/items/Runes/tal_rune.png",
+        "codes": "talRune"
+    },
+    {
+        "name": "Knowledge of Ral",
+        "type": "toggle",
+        "img": "images/items/Runes/ral_rune.png",
+        "codes": "ralRune"
+    },
+    {
+        "name": "Knowledge of Ort",
+        "type": "toggle",
+        "img": "images/items/Runes/ort_rune.png",
+        "codes": "ortRune"
+    },
+    {
+        "name": "Knowledge of Thul",
+        "type": "toggle",
+        "img": "images/items/Runes/thul_rune.png",
+        "codes": "thulRune"
+    },
+    {
+        "name": "Knowledge of Amn",
+        "type": "toggle",
+        "img": "images/items/Runes/amn_rune.png",
+        "codes": "amnRune"
+    },
+    {
+        "name": "Knowledge of Sol",
+        "type": "toggle",
+        "img": "images/items/Runes/sol_rune.png",
+        "codes": "solRune"
+    },
+    {
+        "name": "Knowledge of Shael",
+        "type": "toggle",
+        "img": "images/items/Runes/shael_rune.png",
+        "codes": "shaelRune"
+    },
+    {
+        "name": "Knowledge of Dol",
+        "type": "toggle",
+        "img": "images/items/Runes/dol_rune.png",
+        "codes": "dolRune"
+    },
+    {
+        "name": "Knowledge of Hel",
+        "type": "toggle",
+        "img": "images/items/Runes/hel_rune.png",
+        "codes": "helRune"
+    },
+    {
+        "name": "Knowledge of Io",
+        "type": "toggle",
+        "img": "images/items/Runes/io_rune.png",
+        "codes": "ioRune"
+    },
+    {
+        "name": "Knowledge of Lum",
+        "type": "toggle",
+        "img": "images/items/Runes/lum_rune.png",
+        "codes": "lumRune"
+    },
+    {
+        "name": "Knowledge of Ko",
+        "type": "toggle",
+        "img": "images/items/Runes/ko_rune.png",
+        "codes": "koRune"
+    },
+    {
+        "name": "Knowledge of Fal",
+        "type": "toggle",
+        "img": "images/items/Runes/fal_rune.png",
+        "codes": "falRune"
+    },
+    {
+        "name": "Knowledge of Lem",
+        "type": "toggle",
+        "img": "images/items/Runes/lem_rune.png",
+        "codes": "lemRune"
+    },
+    {
+        "name": "Knowledge of Pul",
+        "type": "toggle",
+        "img": "images/items/Runes/pul_rune.png",
+        "codes": "pulRune"
+    },
+    {
+        "name": "Knowledge of Um",
+        "type": "toggle",
+        "img": "images/items/Runes/um_rune.png",
+        "codes": "umRune"
+    },
+    {
+        "name": "Knowledge of Mal",
+        "type": "toggle",
+        "img": "images/items/Runes/mal_rune.png",
+        "codes": "malRune"
+    },
+    {
+        "name": "Knowledge of Ist",
+        "type": "toggle",
+        "img": "images/items/Runes/ist_rune.png",
+        "codes": "istRune"
+    },
+    {
+        "name": "Knowledge of Gul",
+        "type": "toggle",
+        "img": "images/items/Runes/gul_rune.png",
+        "codes": "gulRune"
+    },
+    {
+        "name": "Knowledge of Vex",
+        "type": "toggle",
+        "img": "images/items/Runes/vex_rune.png",
+        "codes": "vexRune"
+    },
+    {
+        "name": "Knowledge of Ohm",
+        "type": "toggle",
+        "img": "images/items/Runes/ohm_rune.png",
+        "codes": "ohmRune"
+    },
+    {
+        "name": "Knowledge of Lo",
+        "type": "toggle",
+        "img": "images/items/Runes/lo_rune.png",
+        "codes": "loRune"
+    },
+    {
+        "name": "Knowledge of Sur",
+        "type": "toggle",
+        "img": "images/items/Runes/sur_rune.png",
+        "codes": "surRune"
+    },
+    {
+        "name": "Knowledge of Ber",
+        "type": "toggle",
+        "img": "images/items/Runes/ber_rune.png",
+        "codes": "berRune"
+    },
+    {
+        "name": "Knowledge of Jah",
+        "type": "toggle",
+        "img": "images/items/Runes/jah_rune.png",
+        "codes": "jahRune"
+    },
+    {
+        "name": "Knowledge of Cham",
+        "type": "toggle",
+        "img": "images/items/Runes/cham_rune.png",
+        "codes": "chamRune"
+    },
+    {
+        "name": "Knowledge of Zod",
+        "type": "toggle",
+        "img": "images/items/Runes/zod_rune.png",
+        "codes": "zodRune"
+    },
+    {
+        "name": "Level Up Rewards",
         "type": "consumable",
-        "img": "images/items/consumable.png",
-        "max_quantity": 8,
+        "img": "images/items/level_up.png",
+        "max_quantity": 99,
         "increment": 1,
-        "decrement": 1,
         "initial_quantity": 1,
+        "overlay_font_size": 12,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
-        "codes": "consumable"
+        "codes": "levelUp"
     },
     {
-        "name": "Progressive Toggle",
-        "type": "progressive_toggle",
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive_toggle",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_toggle_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Act Clear - Normal",
+        "type": "consumable",
+        "img": "images/items/act_clear_norm.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 12,
+        "overlay_background": "#000000",
+        "codes": "actClearNorm"
+    },
+    {
+        "name": "Act Clear - Nightmare",
+        "type": "consumable",
+        "img": "images/items/act_clear_night.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 12,
+        "overlay_background": "#000000",
+        "codes": "actClearNight"
+    },
+    {
+        "name": "Act Clear - Hell",
+        "type": "consumable",
+        "img": "images/items/act_clear_hell.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 12,
+        "overlay_background": "#000000",
+        "codes": "actClearHell"
     }
 ]
